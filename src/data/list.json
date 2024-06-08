@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Apples",
+    "quantity": 4,
+    "checked": false
+  },
+  {
+    "id": 2,
+    "name": "Bananas",
+    "quantity": 6,
+    "checked": false
+  },
+  {
+    "id": 3,
+    "name": "Bread",
+    "quantity": 1,
+    "checked": false
+  },
+  {
+    "id": 4,
+    "name": "Milk",
+    "quantity": 2,
+    "checked": false
+  },
+  {
+    "id": 5,
+    "name": "Eggs",
+    "quantity": 12,
+    "checked": false
+  },
+  {
+    "id": 6,
+    "name": "Butter",
+    "quantity": 1,
+    "checked": true
+  },
+  {
+    "id": 7,
+    "name": "Cheese",
+    "quantity": 3,
+    "checked": false
+  }
+]

@@ -18,3 +18,11 @@ li {
   margin-bottom: 0.5rem;
   box-shadow: 5px 3px 3px lightsteelblue;
 }
+
+.remove {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0 1.5rem;
+  border-radius: 50%;
+}

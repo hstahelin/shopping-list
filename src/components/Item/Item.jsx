@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Item.css";
 
-function Item({ item }) {
+function Item({ item, handleRemove }) {
   const [checked, setChecked] = useState(item.checked);
 
   function handleCheck() {
@@ -20,6 +20,9 @@ function Item({ item }) {
           checked={checked}
           onChange={handleCheck}
         />
+        <button className="remove" onClick={() => handleRemove(item.id)}>
+          X
+        </button>
       </div>
     </li>
   );

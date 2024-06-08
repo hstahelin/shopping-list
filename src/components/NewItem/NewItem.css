@@ -12,10 +12,15 @@ input {
   padding-bottom: 1rem;
 }
 
-button {
+.add {
   border-radius: 5px;
   border: none;
   background-color: cadetblue;
   padding: 0.5rem 6rem;
   color: antiquewhite;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.divider {
+  margin: 1rem 0;
 }

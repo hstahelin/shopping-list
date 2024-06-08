@@ -13,6 +13,10 @@ function App() {
 
   function handleAddItem(event) {
     event.preventDefault();
+    if (!event.target.newItem.value) {
+      alert("Invalid item name");
+      return;
+    }
     const newItem = {
       id: getId(itemList),
       name: event.target.newItem.value,
@@ -25,10 +29,15 @@ function App() {
     event.target.reset();
   }
 
+  function handleRemove(itemId) {
+    const newArr = itemList.filter((item) => item.id !== itemId);
+    setItemList(newArr);
+  }
+
   return (
     <div className="App">
       <Header />
-      <ItemList itemList={itemList} />
+      <ItemList itemList={itemList} handleRemove={handleRemove} />
       <NewItem handleAddItem={handleAddItem} />
     </div>
   );

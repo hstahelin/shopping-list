@@ -1,4 +1,20 @@
 .item {
   display: flex;
-  gap: 1rem;
+  /* gap: 1rem; */
+}
+.name {
+  width: 50%;
+}
+.qty {
+  width: 10%;
+  text-align: left;
+}
+
+li {
+  padding: 0.2rem 1rem;
+  list-style: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  box-shadow: 5px 3px 3px lightsteelblue;
 }

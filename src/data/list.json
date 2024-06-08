@@ -1,44 +1,26 @@
 [
   {
-    "id": 11,
+    "id": 1,
     "name": "Apples",
     "quantity": 4,
     "checked": false
   },
   {
-    "id": 22,
-    "name": "Bananas",
-    "quantity": 6,
-    "checked": false
-  },
-  {
-    "id": 3,
+    "id": 2,
     "name": "Bread",
     "quantity": 1,
     "checked": false
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Milk",
     "quantity": 2,
     "checked": false
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Eggs",
     "quantity": 12,
-    "checked": false
-  },
-  {
-    "id": 6,
-    "name": "Butter",
-    "quantity": 1,
-    "checked": true
-  },
-  {
-    "id": 7,
-    "name": "Cheese",
-    "quantity": 3,
     "checked": false
   }
 ]

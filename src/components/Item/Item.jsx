@@ -11,7 +11,7 @@ function Item({ item }) {
   return (
     <li>
       <div className="item">
-        <p className="name">{item.name}</p>
+        <h3 className="name">{item.name}</h3>
         <p className="qty">{item.quantity}</p>
         <input
           type="checkbox"

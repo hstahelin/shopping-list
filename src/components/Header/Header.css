@@ -3,6 +3,11 @@ header {
   justify-content: center;
   gap: 1rem;
 }
+
+h1 {
+  font-weight: 700;
+}
+
 .icon {
   width: 50px;
 }

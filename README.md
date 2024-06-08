@@ -41,3 +41,7 @@ To get started with the project, follow these steps:
 ### Marking Items as Purchased
 
 - Click on the checkbox next to item name to mark it as purchased.
+
+### Removing Items
+
+- Click the red "X" button next to an item to remove it from the list.
